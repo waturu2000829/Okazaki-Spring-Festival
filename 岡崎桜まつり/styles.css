@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background: #333;
-    color: #fff;
+    background: #ffc0cb;
+    color: #000000;
     padding: 10px 0;
     text-align: center;
 }
@@ -30,7 +30,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
