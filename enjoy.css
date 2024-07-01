@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+}
+
+header {
+    background: url('岡崎春祭り_タイトル.jpg') no-repeat center center/cover;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.hero {
+    background: url('cherry_blossoms.jpg') no-repeat center center/cover;
+    color: #fff;
+    height: 300px;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 7px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+main {
+    padding: 20px;
+    padding-bottom: 120px; /* フッターの高さ分の余白を追加 */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.event {
+    background-color: #ffc0cb;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 20px;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.content img {
+    max-width: 50%;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+.content p {
+    flex: 1;
+    margin: 0;
+    color: #333;
+}
