@@ -50,3 +50,13 @@ main {
     padding: 20px;
     padding-bottom: 60px; /* フッターの高さ分の余白を追加 */
 }
+
+/* 親要素の中央寄せ */
+.map {
+    text-align: center;
+}
+
+/* iframeの中央寄せ */
+.map iframe {
+    display: inline-block;
+}
