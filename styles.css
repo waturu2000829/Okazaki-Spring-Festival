@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background: #ffc0cb;
-    color: #000000;
+    background: url('蟯｡蟠取丼逾ｭ繧垣繧ｿ繧､繝医Ν.jpg') no-repeat center center/cover;
+    color: #fff;
     padding: 10px 0;
     text-align: center;
 }
@@ -24,16 +24,21 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #fff;
     text-decoration: none;
 }
 
 .hero {
     background: url('cherry_blossoms.jpg') no-repeat center center/cover;
-    color: #fff;
-    height: 300px;
+    color: #333;
+    height: 400px;
     text-align: center;
     padding: 100px 20px;
+}
+.hero img {
+    max-width: 200%;
+    height: auto;
+    border-radius: 8px;
 }
 
 footer {
@@ -48,16 +53,6 @@ footer {
 
 main {
     padding: 20px;
-    padding-bottom: 60px; /* フッターの高さ分の余白を追加 */
+    padding-bottom: 50px;
 }
 
-/* 親要素の中央寄せ */
-.map {
-    text-align: center;
-}
-
-/* iframeの中央寄せ */
-.map iframe {
-    display: block;
-    margin: 0 auto;
-}
