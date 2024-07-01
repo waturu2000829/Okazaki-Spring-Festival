@@ -58,5 +58,6 @@ main {
 
 /* iframeの中央寄せ */
 .map iframe {
-    display: inline-block;
+    display: block;
+    margin: 0 auto;
 }
